@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+    .navigate {
+        display: none;
+    }
+    .menu-btn {
+
+    }
+    .logo {
+        margin: 37px 0 0 10px;
+    }
+    header {
+        background: url(../upload/main-pic.jpg) 62% 50% no-repeat;
+    }
+    .social-logo {
+        height: 38px;
+        width: 165px;
+        margin:0;
+        padding: 0;
+        position: relative;
+    }
+    .contact-form {
+        width: 100%;
+        background: rgba(255,255,255,0.8);
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 162px;
+        margin-left: 0;
+    }
+    .gallery-item:nth-child(1),.gallery-item:nth-child(4){
+        margin-left: 15px;
+    }
+    .gallery-item:nth-child(3),.gallery-item:nth-child(6){
+        margin-right: 15px;
+    }
+    .gallery-item {
+        width: 100%;
+        margin: 15px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .contact-form {
+        width: 100%;
+        background: rgba(255,255,255,0.8);
+        border-radius: 7px;
+        text-align: center;
+        margin-bottom: 162px;
+        margin-left: 0;
+    }
+}

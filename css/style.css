@@ -1,0 +1,288 @@
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    color: #000;
+    background: #ffffff;
+    font-size: 12px;
+    line-height: 1.3;
+}
+.container {
+    max-width: 1170px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+header {
+    background: url("../upload/main-pic.jpg") 0 50% no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.header-menu {
+    background-color: rgba(255,255,255,0.6);
+    height: 92px;
+    position: relative;
+}
+.stickytop .menu li>a{
+    color: white;
+}
+#header .stickytop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 92px;
+    background-color: #95a5ad;
+}
+.header-menu.stickytop li>a {
+    color: white;
+}
+
+.logo {
+    float: left;
+    width: 117px;
+    margin: 37px 0 0 20px;
+}
+.logo img a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navigate {
+    float: left;
+    padding-left: 50px;
+}
+.navigate li a{
+    text-decoration: none;
+    color: #9daeb6;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.navigate a:hover {
+    border-bottom: 3px solid #36aeea;
+}
+.navigate li{
+    display: inline-block;
+    margin-top: 32px;
+}
+.feedback {
+    float: right;
+    margin: 29px 0 0 0;
+}
+.stickytop .feedback button{
+    border-color: white;
+    color: white;
+}
+.feedback button {
+    padding: 12px 50px;
+    border: 3px solid #36aeea;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #36aeea;
+    background-color: transparent;
+}
+.gallery {
+    margin: 0 0 62px 0;
+}
+.gallery-head {
+    margin: 102px 0 50px 0;
+    letter-spacing: 3px;
+}
+.gallery h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+.gallery a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.gallery-item {
+    width: 360px;
+    margin: 15px;
+    padding: 0;
+}
+.gallery-item:nth-child(1),.gallery-item:nth-child(4){
+    margin-left: 0;
+}
+.gallery-item:nth-child(3),.gallery-item:nth-child(6){
+    margin-right: 0;
+}
+.gallery-item img {
+    width: 100%;
+}
+.social-logos {
+    background-color: #f8f9fa;
+    margin-bottom: 105px;
+}
+.social-logo {
+    height: 38px;
+    width: 165px;
+    margin: 70px 0 70px 30px;
+    padding: 0;
+    position: relative;
+}
+.social-logo:first-child{
+    margin-left: 0;
+}
+.social-logo a {
+    text-decoration: none;
+}
+.social-logo span:before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -9px;
+    width: 100px;
+    height: 50px;
+}
+.slack span:before{
+    background: url("../img/social.png") 0 0 no-repeat;
+    left: -9px;
+}
+.adobe span:before{
+    background: url("../img/social.png") -109px 0 no-repeat;
+    width: 50px;
+    left: 31px;
+}
+.google span:before{
+    background: url("../img/social.png") -169px 0 no-repeat;
+    left: 22px;
+}
+.facebook span:before{
+    background: url("../img/social.png") -283px 0 no-repeat;
+    left: 46px;
+}
+.spotify span:before{
+    background: url("../img/social.png") -392px 0 no-repeat;
+    left: 65px;
+}
+.nike span:before{
+    background: url("../img/social.png") -490px 0 no-repeat;
+    top: -7px;
+    left: 78px;
+}
+.clients-head {
+    margin-bottom: 84px;
+}
+.clients-head h2 {
+    margin: 0 0 0 4px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c2e37;
+    letter-spacing: 3px;
+}
+.clients-feedback {
+    margin-bottom: 139px;
+}
+.clients-feedback p {
+    color: #bcbcbc;
+    font-size: 18px;
+    line-height: 1.9;
+    margin-top: 30px;
+}
+.feedback-item {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.fringe p, .feedback-item:nth-child(2):before{
+    margin-left: 15px;
+}
+.feedback-item:before {
+    content: '';
+    position: absolute;
+    background: url("../img/brick.png") 0 0 no-repeat;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 26px;
+}
+.signature img {
+    border-radius: 50%;
+    float: left;
+}
+.fringe img {
+    margin-left: 15px;
+}
+.fringe span {
+    margin-left: 16px;
+}
+.signature p {
+    color: #bcbcbc;
+    margin: 20px 0 0 85px;
+    padding: 18px 0 0 0;
+    font-size: 16px;
+}
+.signature span {
+    font-weight: bold;
+}
+.clients {
+    background: url("../upload/clients-bg.jpg") 0 50% no-repeat;
+    background-size: cover;
+
+}
+.contact-form {
+    width: 515px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 162px;
+    margin-left: 314px;
+}
+.contact-head {
+    margin: 31px 0 0 0;
+}
+.contact-head h2 {
+    font-size: 35px;
+    color: #36aeea;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.contact-head p {
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 0 0 18px 0;
+}
+.contact-form span {
+    height: 60px;
+    display: block;
+    margin: 20px 15px;
+}
+.contact-form span:last-child{
+    margin-bottom: 61px;
+}
+.contact-form input {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #cfcfcf;
+}
+.contact-form button {
+    width: 100%;
+    height: 100%;
+    background-color: #36aeea;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 10px;
+    letter-spacing: 2px;
+
+}
+.contact .content {
+    text-align: center;
+    width: 515px;
+}
