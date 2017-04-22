@@ -35,14 +35,24 @@ header {
 .header-menu.stickytop li>a {
     color: white;
 }
-
+.header-menu.stickytop .logo a{
+    background: url("../img/logo.png") 0 -35px no-repeat;
+}
 .logo {
     float: left;
     width: 117px;
     margin: 37px 0 0 20px;
+    position: relative;
+    height: 32px;
 }
-.logo img a {
+.logo a {
     text-decoration: none;
+    background: url("../img/logo.png") 0 0 no-repeat;
+    position: absolute;
+    width: 117px;
+    height: 30px;
+    top: 0;
+    left: 0;
 }
 ul {
     list-style-type: none;
