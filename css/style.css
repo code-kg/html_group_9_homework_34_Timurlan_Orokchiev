@@ -35,6 +35,9 @@ header {
 .header-menu.stickytop li>a {
     color: white;
 }
+.header-menu.stickytop li>a:hover {
+    border-bottom: 3px solid #ffffff;
+}
 .header-menu.stickytop .logo a{
     background: url("../img/logo.png") 0 -35px no-repeat;
 }
@@ -93,10 +96,10 @@ ul {
     background-color: transparent;
 }
 .gallery {
-    margin: 0 0 62px 0;
+    margin: 0 0 47px 0;
 }
 .gallery-head {
-    margin: 102px 0 50px 0;
+    margin: 102px 0 65px 0;
     letter-spacing: 3px;
 }
 .gallery h2 {
@@ -109,16 +112,15 @@ ul {
     margin: 0;
     padding: 0;
 }
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .gallery-item {
     width: 360px;
-    margin: 15px;
+    margin-bottom: 30px;
     padding: 0;
-}
-.gallery-item:nth-child(1),.gallery-item:nth-child(4){
-    margin-left: 0;
-}
-.gallery-item:nth-child(3),.gallery-item:nth-child(6){
-    margin-right: 0;
 }
 .gallery-item img {
     width: 100%;
@@ -126,6 +128,11 @@ ul {
 .social-logos {
     background-color: #f8f9fa;
     margin-bottom: 105px;
+}
+.social_logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .social-logo {
     height: 38px;
@@ -233,15 +240,15 @@ ul {
     font-weight: bold;
 }
 .clients {
-    background: url("../upload/clients-bg.jpg") 0 50% no-repeat;
-    background-size: cover;
-
+    background: url("../upload/clients-bg.jpg") 52% 133% no-repeat;
 }
 .contact-form {
     width: 515px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(199,206,211,0.9);
+    background: linear-gradient(to bottom, rgba(199,206,211,1) 0%, rgba(94,140,151,1) 96%, rgba(94,140,151,1) 100%);
     border-radius: 7px;
     text-align: center;
+    box-shadow: 0 0 40px 6px rgba(162,160,160,0.4);
     /*margin-bottom: 162px;*/
     margin: 0 auto;
 }
@@ -278,7 +285,7 @@ ul {
     font-size: 18px;
     color: #cfcfcf;
 }
-.contact-form button {
+.contact-form button{
     width: 100%;
     height: 71px;
     background-color: #36aeea;
@@ -289,6 +296,14 @@ ul {
     color: #ffffff;
     margin-bottom: 50px;
     letter-spacing: 2px;
+}
+button.fancybox-close-small{
+     width: 0;
+     height: 0;
+     background-color: transparent;
+}
+.fancybox-close-small:after {
+    display: none;
 }
 .contact .content {
     text-align: center;
