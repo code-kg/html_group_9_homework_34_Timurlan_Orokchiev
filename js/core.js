@@ -29,4 +29,33 @@ $(window).scroll(function () {
     else{
         mainMenu.removeClass('stickytop');
     }
+    $('#contact-form').validate({
+        rules: {
+            name: {
+                required: true,
+            },
+            phone: {
+                required: true,
+                minlength: 12
+            },
+            'e-mail': {
+                required: true,
+            }
+        },
+        messages: {
+            name: {
+                required: 'please fill in this field',
+                email: 'please enter your name'
+            },
+            phone: {
+                required: 'please fill in this field',
+                minlength: 'please enter your phone number +996 312 123 456'
+            },
+            'e-mail': {
+                required: 'please fill in this field',
+                minlength: 'please enter your e-mail'
+            }
+        },
+        errorElement: 'i'
+    });
 });
