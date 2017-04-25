@@ -196,6 +196,9 @@ ul {
 }
 .clients-feedback {
     margin-bottom: 139px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .clients-feedback p {
     color: #bcbcbc;
@@ -207,9 +210,7 @@ ul {
     position: relative;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-}
-.fringe p, .feedback-item:nth-child(2):before{
-    margin-left: 15px;
+    width: 569px;
 }
 .feedback-item:before {
     content: '';
@@ -223,12 +224,6 @@ ul {
 .signature img {
     border-radius: 50%;
     float: left;
-}
-.fringe img {
-    margin-left: 15px;
-}
-.fringe span {
-    margin-left: 16px;
 }
 .signature p {
     color: #bcbcbc;
@@ -259,7 +254,7 @@ ul {
     font-size: 35px;
     color: #36aeea;
     margin: 0 0 0 0;
-    padding: 0px 0px 4px 6px;
+    padding: 0 0 4px 6px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }

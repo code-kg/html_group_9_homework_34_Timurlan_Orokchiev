@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .navigate {
         display: none;
     }
@@ -47,9 +47,14 @@
         transform: rotate(-45deg);
         bottom: 0;
     }
-    .feedback {
-        float: right;
-        margin: 30px 15px 0 0;
+    .fringe p, .feedback-item:nth-child(2):before {
+        margin-left: 0;
+    }
+    .fringe img {
+        margin-left: 0;
+    }
+    .feedback-item {
+        margin: 20px 0 0 0;
     }
     .feedback button {
         padding: 12px 12px;
@@ -115,13 +120,5 @@
         width: 100%;
         margin: 15px;
         padding: 0;
-    }
-}
-@media screen and (max-width: 768px){
-    .feedback {
-        display: none;
-    }
-    .contact-form {
-        width: 100%;
     }
 }
