@@ -22,7 +22,7 @@ $(window).scroll(function () {
     var scrollHead = $('#header');
     var scrollTop = $(this).scrollTop();
     var mainMenu = $('.header-menu');
-    scrollHead.css('top', -(scrollTop * 0.4) + 'px');
+    // scrollHead.css('top', -(scrollTop * 0.4) + 'px');
     if($(this).scrollTop() >= $('header').height()) {
         mainMenu.addClass('stickytop');
     }
@@ -58,4 +58,5 @@ $(window).scroll(function () {
         },
         errorElement: 'i'
     });
+
 });
